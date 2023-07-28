@@ -72,7 +72,8 @@ export class AuthService {
   }
 
   private isCurrentDomainSecure_(): boolean {
-    return ['localhost', '127.0.0.1'].indexOf(location.hostname) > -1;
+    return true;
+    //return ['localhost', '127.0.0.1'].indexOf(location.hostname) > -1;
   }
 
   private isCurrentProtocolSecure_(): boolean {

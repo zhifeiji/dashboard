@@ -1,0 +1,39 @@
+开发环境配置
+
+root@jeremy-ubuntu:/home/jeremy# uname -a
+Linux jeremy-ubuntu 5.15.0-76-generic #83-Ubuntu SMP Thu Jun 15 19:21:56 UTC 2023 aarch64 aarch64 aarch64 GNU/Linux
+
+root@jeremy-ubuntu:/home/jeremy# lsb_release -a
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 22.04.2 LTS
+Release:        22.04
+Codename:       jammy
+
+root@jeremy-ubuntu:~/gopath/src/github.com/kubernetes/dashboard# go version
+go version go1.13.9 linux/arm64
+
+root@jeremy-ubuntu:~/gopath/src/github.com/kubernetes/dashboard# node --version
+v12.22.1
+
+root@jeremy-ubuntu:~/gopath/src/github.com/kubernetes/dashboard# npm --version
+6.14.12
+
+root@jeremy-ubuntu:~/gopath/src/github.com/kubernetes/dashboard# gulp --version
+CLI version: 2.3.0
+Local version: 4.0.2
+
+root@jeremy-ubuntu:~/gopath/src/github.com/kubernetes/dashboard# docker --version
+Docker version 20.10.24, build 297e128
+
+root@jeremy-ubuntu:~/gopath/src/github.com/kubernetes/dashboard# git --version
+git version 2.34.1
+
+root@jeremy-ubuntu:~/gopath/src/github.com/kubernetes/dashboard# curl --version
+curl 7.81.0 (aarch64-unknown-linux-gnu) libcurl/7.81.0 OpenSSL/3.0.2 zlib/1.2.11 brotli/1.0.9 zstd/1.4.8 libidn2/2.3.2 libpsl/0.21.0 (+libidn2/2.3.2) libssh/0.9.6/openssl/zlib nghttp2/1.43.0 librtmp/2.3 OpenLDAP/2.5.13
+Release-Date: 2022-01-05
+Protocols: dict file ftp ftps gopher gophers http https imap imaps ldap ldaps mqtt pop3 pop3s rtmp rtsp scp sftp smb smbs smtp smtps telnet tftp 
+Features: alt-svc AsynchDNS brotli GSS-API HSTS HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM NTLM_WB PSL SPNEGO SSL TLS-SRP UnixSockets zstd
+
+root@jeremy-ubuntu:~/gopath/src/github.com/kubernetes/dashboard# python --version
+Python 2.7.18
